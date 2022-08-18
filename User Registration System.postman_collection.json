@@ -84,7 +84,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"name\":\"Ravi Kant Soni\",\r\n \"email\":\"ravikantsoni.author@gmail.com\"\r\n}",
+					"raw": "{\r\n \"name\":\"Ravi Kant Soni\",\r\n \"email\":\"ravikantsoni.author\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
