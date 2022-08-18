@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "f5ec268e-4af3-450d-b8cf-42ff44e9d878",
+		"name": "User Registration System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/user/"
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\":\"Ravi Kant Soni\",\r\n \"address\":\"Lashkariganj, Sasaram, Rohtas, Bihar, pin-821115\",\r\n \"email\":\"ravikantsoni.author@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/user/"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Individual user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/user/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\":\"Ravi Kant\",\r\n \"address\":\"Lashkariganj, Sasaram, Rohtas, Bihar, pin-821115\",\r\n \"email\":\"ravikantsoni.author@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/user/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/user/1"
+			},
+			"response": []
+		},
+		{
+			"name": "GET individual id not found",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/user/50"
+			},
+			"response": []
+		}
+	]
+}
