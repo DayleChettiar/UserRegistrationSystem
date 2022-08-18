@@ -76,6 +76,24 @@
 				"url": "http://localhost:8080/api/user/50"
 			},
 			"response": []
+		},
+		{
+			"name": "create user-erroneous",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\":\"Ravi Kant Soni\",\r\n \"email\":\"ravikantsoni.author@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/user/"
+			},
+			"response": []
 		}
 	]
 }
