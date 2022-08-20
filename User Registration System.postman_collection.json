@@ -11,7 +11,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -27,7 +27,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -52,7 +52,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -68,7 +68,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -93,7 +93,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -109,7 +109,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
@@ -125,7 +125,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"password": "password",
 						"username": "user"
 					}
 				},
