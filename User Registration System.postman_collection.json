@@ -93,8 +93,8 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "password",
-						"username": "user"
+						"username": "admin",
+						"password": "password"
 					}
 				},
 				"method": "DELETE",
