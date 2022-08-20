@@ -8,6 +8,13 @@
 		{
 			"name": "list all users",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "GET",
 				"header": [],
 				"url": "http://localhost:8080/api/user/"
@@ -17,6 +24,13 @@
 		{
 			"name": "Create User",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -35,6 +49,13 @@
 		{
 			"name": "Get Individual user",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "GET",
 				"header": [],
 				"url": "http://localhost:8080/api/user/1"
@@ -44,6 +65,13 @@
 		{
 			"name": "Update User",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "PUT",
 				"header": [],
 				"body": {
@@ -62,6 +90,13 @@
 		{
 			"name": "Delete a User",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": "http://localhost:8080/api/user/1"
@@ -71,6 +106,13 @@
 		{
 			"name": "GET individual id not found",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "GET",
 				"header": [],
 				"url": "http://localhost:8080/api/user/50"
@@ -80,6 +122,13 @@
 		{
 			"name": "create user-erroneous",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "eadec879-6053-480e-a711-b2d34a395e1d",
+						"username": "user"
+					}
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
