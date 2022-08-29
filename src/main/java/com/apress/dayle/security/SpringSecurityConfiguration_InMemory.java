@@ -22,7 +22,8 @@ public class SpringSecurityConfiguration_InMemory extends WebSecurityConfigurerA
     }
 
     protected void configure(HttpSecurity http) throws Exception {
-        http.httpBasic().and().authorizeRequests()
+        http.httpBasic().realmName("User Registration System")
+                .and().authorizeRequests()
                 .antMatchers(HttpMethod.GET, "/api/user").hasRole("USER")
                 .antMatchers(HttpMethod.POST, "/api/user").hasRole("USER")
                 .antMatchers(HttpMethod.PUT, "/api/user/**").hasRole("USER")
